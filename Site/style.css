@@ -103,3 +103,67 @@ section h2{
     grid-area: title;
     line-height: 300px ;
 }
+.about h2, .magazin h2, .contacte h2, .livrare h2{
+    font-weight: bold;
+    font-size: 100px;
+    color: rgb(12, 11, 95);
+}
+.about p {
+    text-align: justify;
+    font-size: 30px;
+}
+.about {
+    padding: 30px;
+    background-color: rgb(236, 189, 255);
+}
+.about img{
+    width: 75%;
+    height: 300px;
+    margin-left: 150px;
+}
+.produse {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 300px 300px;
+    list-style: none;
+    margin: 0;
+}
+.produse li {
+    padding: 15px;
+}
+.produse img {
+    width: 100%;
+    height: 75%;
+}
+.produse span{
+    font-size: 20px;
+    font-weight: bold;
+}
+.produse p{
+    font-size: 15px;
+}
+.contacte h3 {
+    font-size: 40px;
+    margin-left: 20px;
+}
+.contacte li{
+    list-style-type: none;
+    border: 5px dotted rgb(7, 7, 116);
+    margin-bottom: 15px;
+}
+.contacte span {
+    margin-left: 40px;
+    font-size: 20px;
+}
+.livrare li {
+    list-style-type: none;
+    margin-left: 20px;
+}
+.livrare p {
+    margin-left: 40px;
+    font-size: 25px;
+    border: 6px dotted rgb(190, 161, 29);
+}
+.livrare h3 {
+    font-size: 40px;
+}
